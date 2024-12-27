@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "==2.3.3"
+Flask-Cors = "==4.0.0"
+Werkzeug = "==2.3.7"
+python-dotenv = "==1.0.0"
+openai = ">=1.0.0"
+Pillow = "*"
+google-generativeai = "*"
+langchain = "*"
+langchain-community = "*"
+requests = "*"
+textblob = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
